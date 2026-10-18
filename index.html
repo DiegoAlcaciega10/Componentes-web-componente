@@ -4,39 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tarjeta de producto</title>
+    <title>Vivant Web Drink</title>
     <link rel="stylesheet" href="./estilos.css">
 </head>
-<style>
-    tarjeta-producto {
-        --borde: gold;
-        --titulo: navy;
-    }
-</style>
 
 <body>
 
-    <tarjeta-producto>
+    <tarjeta-producto precio=0.45>
 
-        <img slot="foto" src="img/agua_vivant.png">
+        <img slot="foto" src="img/agua_vivant.png" alt="Botella de agua Vivant">
         <h3 slot="nombre">Agua Vivant</h3>
         <p>¡Saca lo mejor de ti!</p>
     </tarjeta-producto>
-    <tarjeta-producto>
+    <tarjeta-producto precio=0.45>
 
-        <img slot="foto" src="img/b-manzana.png">
-        <h3 slot="nombre">Agua Vivant</h3>
+        <img slot="foto" src="img/b-manzana.png" lt="Bebida Vivant sabor  limón">
+        <h3 slot="nombre">Vivant de limon</h3>
         <p>¡Saca lo mejor de ti!</p>
     </tarjeta-producto>
 
-    <tarjeta-producto>
+    <tarjeta-producto precio=0.45>
 
-        <img slot="foto" src="img/nestea.png">
-        <h3 slot="nombre">Agua Vivant</h3>
+        <img slot="foto" src="img/nestea.png" alt="Envase de Vivant Nestea ">
+        <h3 slot="nombre">Vivant Nestea</h3>
         <p>¡Saca lo mejor de ti!</p>
     </tarjeta-producto>
 
-    <script type="module" src="components/tarjeta-producto.js"></script>
+    <script type="module" src="./components/tarjeta-producto.js"></script>
 
 </body>
 
