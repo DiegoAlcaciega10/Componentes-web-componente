@@ -21,7 +21,7 @@ class tarjetaProducto extends HTMLElement {
                 break;
         }
 
-        if (oldValue !== newValue && this.isConnected) {
+        if (this.isConnected) {
             this.render();
         }
     }
@@ -205,8 +205,9 @@ class tarjetaProducto extends HTMLElement {
     }
 
     render() {
-        this.shadowRoot.innerHTML = "";
-        this.shadowRoot.appendChild(this.getTemplate().content.cloneNode(true));
+        const content = this.getTemplate().content.cloneNode(true);
+
+        this.shadowRoot.replaceChildren(content);
 
     }
     connectedCallback() {
