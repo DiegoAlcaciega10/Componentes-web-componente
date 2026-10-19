@@ -35,11 +35,11 @@ Programación Integrativa de Componentes Web · Unidad 1: Web Components
 
 ### Paso 1 · index.html y el módulo
 
-- Etiqueta que registramos: tarjeta-producto
+- Etiqueta que registramos: tarjeta-josema
 - ¿Por qué el nombre debe llevar guion?:
 Agregar un guion evita conflictos con etiquetas propias de html,para que el navegador identifique correctamente que se trata de un componente personalizado
 - Ruta del módulo y cómo lo importa la página:
-- ./components/tarjeta-producto.js
+- ./components/tarjeta-producto-josema.js
 
 ### Paso 2 · Plantilla, Shadow DOM y slots
 
@@ -86,7 +86,7 @@ Marca con una `x` lo que ya comprobaste en el navegador.
 Prueba que usamos en la consola:
 
 ```js
-document.querySelector("tarjeta-producto").setAttribute("precio", "25");
+document.querySelector("tarjeta-josema").setAttribute("precio", "25");
 ```
 
 Resultado que vimos:
