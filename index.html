@@ -12,31 +12,35 @@
         --borde: gold;
         --titulo: navy;
     }
+    
+    tarjeta-ian {
+        --color-marca: #10b981;
+    }
 </style>
 
 <body>
 
-    <tarjeta-producto>
-
+    <tarjeta-diego precio=0.45>
         <img slot="foto" src="img/agua_vivant.png">
         <h3 slot="nombre">Agua Vivant</h3>
         <p>¡Saca lo mejor de ti!</p>
-    </tarjeta-producto>
-    <tarjeta-producto>
+    </tarjeta-diego>
 
-        <img slot="foto" src="img/b-manzana.png">
-        <h3 slot="nombre">Agua Vivant</h3>
-        <p>¡Saca lo mejor de ti!</p>
-    </tarjeta-producto>
+    <tarjeta-ian precio="2.50" destacado>
+        <img slot="foto" src="img/jugonaranja.png" alt="Jugo Natural de Naranja fresco">
+        <h3 slot="nombre">Jugo Natural de Naranja</h3>
+        <p>Exprimido al instante, 100% natural, lleno de vitamina C y frescura pura.</p>
+    </tarjeta-ian>
 
-    <tarjeta-producto>
+    <tarjeta-josema precio="1.00" destacado>
+        <img slot="foto" src="img/Toronja_juice.jpg" alt="Jugo de Toronja">
+        <h3 slot="nombre">Jugo de Toronja All Natural</h3>
+        <p>Jugo antioxidante y reductor de peso con un sabor refrescante.</p>
+    </tarjeta-josema>
 
-        <img slot="foto" src="img/nestea.png">
-        <h3 slot="nombre">Agua Vivant</h3>
-        <p>¡Saca lo mejor de ti!</p>
-    </tarjeta-producto>
-
-    <script type="module" src="components/tarjeta-producto.js"></script>
+    <script type="module" src="components/tarjeta-diego.js"></script>
+    <script type="module" src="components/tarjeta-producto-ian.js"></script>
+    <script type="module" src="components/tarjeta-producto-josema.js"></script>
 
 </body>
 

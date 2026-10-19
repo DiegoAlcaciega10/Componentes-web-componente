@@ -4,7 +4,9 @@
 }
 
 :root {
-    --color-marca: orange;
+    --color-marca: rgb(115, 0, 255);
+    --titulo: #04443f;
+    --borde: rgb(0, 64, 255);
 }
 
 body {
