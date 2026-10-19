@@ -98,6 +98,6 @@ Resultado que vimos:
 
 ## Uso de inteligencia artificial
 
-- Herramienta usada (o «ninguna»): Se uso Github Copilot, para la realización de diseño en el caso de José María Sandoval Espinosa y además para arreglar errores de commits al mezclar las branches. Debido a problemas con el uso de Github.
-- Para qué la consultamos:
-- Qué cambiamos o comprobamos nosotros:
+- Herramienta usada (o «ninguna»): Se uso Github Copilot
+- Para qué la consultamos:Para la realización de diseño en el caso de José María Sandoval Espinosa y además para arreglar errores de commits al mezclar las branches. Debido a problemas con el uso de Github.
+- Qué cambiamos o comprobamos nosotros: El funcionamiento correcto del programa además de la aplicación del diseño correcto y ejecución dentro de la página web
