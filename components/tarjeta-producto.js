@@ -154,8 +154,12 @@ class tarjetaProducto extends HTMLElement {
     }
 
     render() {
+        if (this.shadowRoot.childElementCount > 0) {
+            this.shadowRoot.innerHTML = "";
+        }
         this.shadowRoot.appendChild(this.getTemplate().content.cloneNode(true));
     }
+
     connectedCallback() {
         this.render();
     }
