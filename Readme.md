@@ -55,9 +55,9 @@ Al no cloneNode(true), los elementos de la plantilla se moverían en lugar de co
 - Método que reacciona cuando cambia `precio`:
 Metod attributeChangedCallback(name, oldValue, newValue)
 
-- Color de marca (`--color-marca`) y dónde lo definimos:
+- Color de marca (`--color-marca`) y dónde lo definimos: rgb(115, 0, 255) definido en el archivo estilo.css
 
-- Valor de respaldo que usa el componente si la página no define la variable:
+- Valor de respaldo que usa el componente si la página no define la variable:  #1aa6b7
 
 ### Paso 4 · Tres productos del emprendimiento
 
